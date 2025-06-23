@@ -1,0 +1,29 @@
+# Bull Niu Statistics - 微信群牛牛游戏分析工具
+# 核心依赖
+
+# 数据处理
+pandas>=1.5.0
+numpy>=1.21.0
+
+# 数据库操作
+# pysqlcipher3>=1.0.0  # SQLCipher支持，需要手动编译
+# 暂时使用sqlite3作为基础，后续可升级到pysqlcipher3
+
+# 时间处理
+python-dateutil>=2.8.0
+
+# 测试框架
+pytest>=7.0.0
+pytest-cov>=4.0.0
+
+# 开发工具
+black>=22.0.0
+flake8>=5.0.0
+
+# Web界面（可选）
+streamlit>=1.25.0
+flask>=2.3.0
+
+# 数据可视化（可选）
+matplotlib>=3.5.0
+plotly>=5.15.0
